@@ -30,6 +30,12 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		<!-- end::actuator[] -->
+		
+		  <dependency>
+		     <groupId>com.ibm.icu</groupId>
+		     <artifactId>icu4j</artifactId>
+		     <version>56.1</version>
+		  </dependency>		
 
 		<!-- tag::tests[] -->
 		<dependency>
