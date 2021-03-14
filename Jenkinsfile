@@ -1,5 +1,8 @@
 node{
 	//def JVMHOME = tool name: 'java-1', type: 'jdk'
+	tools {
+	  jdk "java8"
+	}	
 	stage('SCM CheckOut') {
 		git 'https://github.com/ManuelKumar/hello-world'
 	}
