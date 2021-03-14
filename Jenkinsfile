@@ -14,7 +14,7 @@ node{
 			def JVMHOME = tool name: 'java8', type: 'jdk'
 			def mvnHome = tool name:'maven-3', type: 'maven'
 			withSonarQubeEnv('sonar-6') {
-			bat "${mvnHome}/bin/mvn org.codehaus.mojo:sonar-maven-plugin:2.4:sonar:sonar"
+			bat "${mvnHome}/bin/mvn org.codehaus.mojo:sonar-maven-plugin:2.4:sonar"
 			}	
 			//echo  Sonar Run Complete
 		   	   
