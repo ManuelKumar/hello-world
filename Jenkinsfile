@@ -1,7 +1,7 @@
 node{
 	//def JVMHOME = tool name: 'java-1', type: 'jdk'
 	stage('SCM CheckOut') {
-		git 'https://github.com/ManuelKumar/helloworldtest'
+		git 'https://github.com/ManuelKumar/hello-world'
 	}
 	stage('Compile Package') {
 		def mvnHome = tool name:'maven-3', type: 'maven'
