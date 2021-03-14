@@ -14,14 +14,21 @@ pipeline{
 			}	
 		}
 		stage('Compile Package') {
+		   steps {	
+		   	def mvnHome = tool name:'maven-3', type: 'maven'	
+		   }		   
 		    steps {		
-			def mvnHome = tool name:'maven-3', type: 'maven'
+			
 			bat "${mvnHome}/bin/mvn clean install"
 			//echo compile and 
 		    }	    
 
 		}
 		stage('SonarQube Analysis') {
+		   steps {		
+			def mvnHome = tool name:'maven-3', type: 'maven'
+	
+		   }			
 		   steps {		
 			def mvnHome = tool name:'maven-3', type: 'maven'
 			withSonarQubeEnv('sonar-6') {
