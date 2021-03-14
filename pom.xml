@@ -54,21 +54,14 @@
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
-				 <artifactId>tomcat9-maven-plugin</artifactId>
+				 <artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 				    <fork>true</fork>
 				    <executable>${java.home}</executable>	
 				    <source>1.8</source>
 				    <target>1.8</target>
 			
-                    
-                  
-			    	 <version>2.2</version>
-			 
-				<url>http://localhost:8080/manager/text</url>
-				<server>TomcatServer</server>
-				<path>/</path>
-			    </configuration>				
+				 </configuration>				
 			</plugin>
 		</plugins>
 	</build>
