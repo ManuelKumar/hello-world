@@ -1,4 +1,7 @@
-node{
+pipeline{
+	
+	agent any
+	
 	//def JVMHOME = tool name: 'java-1', type: 'jdk'
 	tools {
 	  jdk "java8"
