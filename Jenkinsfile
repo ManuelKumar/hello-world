@@ -1,7 +1,7 @@
 node{
 	
 		stage('SCM CheckOut') {
-				git 'https://github.com/ManuelKumar/hello-world'
+				git 'https://github.com/ManuelKumar/hello-world.git'
 				
 		}
 		stage('Compile Package') {
