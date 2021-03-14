@@ -55,6 +55,11 @@
 		<name>DESKTOP-1P7TPHD-snapshots</name>
 		<url>http://localhost:8081/artifactory/libs-snapshot-local</url>
 	    </snapshotRepository>
+	    <repository>
+		<id>central</id>
+		<name>DESKTOP-1P7TPHD-releases</name>
+		<url>http://localhost:8081/artifactory/libs-release-local</url>
+	    </repository>		
 	</distributionManagement>	
 	
 	<packaging>war</packaging>
