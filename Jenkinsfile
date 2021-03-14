@@ -1,5 +1,5 @@
 node{
-	def JVMHOME = tool name: 'Java', type: 'java'
+	def JVMHOME = tool name: 'java-1', type: 'java'
 	stage('SCM CheckOut') {
 		git 'https://github.com/ManuelKumar/helloworldtest1'
 	}
