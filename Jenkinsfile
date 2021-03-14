@@ -1,6 +1,6 @@
 node{
 	
-		defTomcatWeb = 'C:\\Manuel\\Projects\\apache-tomcat-9.0.44\\webapps\\'
+		defTomcatWeb = 'C:\Manuel\Projects\apache-tomcat-9.0.44\webapps\'
 		stage('SCM CheckOut') {
 				git 'https://github.com/ManuelKumar/hello-world.git'
 				
