@@ -17,6 +17,14 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+	
+	<distributionManagement>
+	    <snapshotRepository>
+		<id>snapshots</id>
+		<name>DESKTOP-1P7TPHD-snapshots</name>
+		<url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+	    </snapshotRepository>
+	</distributionManagement>	
 
 	<dependencies>
 		<dependency>
@@ -49,13 +57,7 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
-	    <snapshotRepository>
-		<id>snapshots</id>
-		<name>DESKTOP-1P7TPHD-snapshots</name>
-		<url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-	    </snapshotRepository>
-	</distributionManagement>	
+	
 	
 	<packaging>war</packaging>
 
