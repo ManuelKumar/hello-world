@@ -77,7 +77,7 @@
 		</plugins>
 	</build>
 	
-	<context-path>/</context-path>
+
 	<packaging>war</packaging>
 
 </project>
